@@ -1,0 +1,27 @@
+[
+    {
+      "album-art": "images/Gospel.jpg",
+      "title": "Gospel"
+    },
+    {
+      "album-art": "images/AfroPop.jpg",
+      "title": "Afro Pop"
+    },
+    {
+      "album-art": "images/Vibes.jpg",
+      "title": "Vibes"
+    },
+    {
+      "album-art": "images/Thanksgiving.png",
+      "title": "Thanksgiving"
+    },
+    {
+        "album-art": "https://rb.gy/iodocn",
+        "title": "Classical music"
+    },
+    {
+        "album-art": "https://rb.gy/ashnt9",
+        "title": "Easy listening"
+    }
+]
+

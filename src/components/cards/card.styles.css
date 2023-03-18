@@ -1,0 +1,90 @@
+/* STYLING FOR CARD WITH TEXT  */
+
+.cardLg-container {
+  background-color: var(--dark-primary);
+  color: var(--white);
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 5px;
+  display: inline-block;
+}
+.cardLg-image-container {
+  width: 100%;
+  height: 80%;
+  overflow: hidden;
+  text-align: start;
+}
+.cardLg-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 7px 7px 0 0;
+}
+
+.t{
+  margin-top: 6px;
+}
+
+/* STYLING FOR CARD WITH TEXT AT CENTER */
+.cardImage-container {
+  position: relative;
+  text-align: center;
+  color: white;
+  height: 300px;
+  width: 300px;
+  border-radius: 25px;
+  overflow: hidden;
+  margin: 20px;
+  display: inline-block;
+}
+
+.cardImage-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-80%, -50%);
+  text-transform: uppercase;
+  /* margin: 10px; */
+}
+.cardImage-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* STYLING FOR ARTIST ROUND CARD WITH TEXT  */
+.cardRound-container {
+  color: white;
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  overflow: hidden;
+  margin: 10px;
+}
+.cardRound-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.cardRound-wrapper {
+  text-align: center;
+  height: 200px;
+  width: 200px;
+  margin: 10px;
+  display: inline-block;
+}
+.cardRound-container-sm {
+  color: white;
+  height: 35px;
+  width: 35px;
+  border-radius: 100px;
+  overflow: hidden;
+  margin: 10px;
+}
+.cardRound-container-sm img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

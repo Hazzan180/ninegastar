@@ -1,0 +1,54 @@
+.login-wrapper {
+  padding: 20px 0;
+  display: grid;
+  grid-template-columns: repeat(2, 50%);
+  width: 100vw;
+  height: 90vh;
+}
+
+.form-footer-text {
+  width: fit-content;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.auth-form-container {
+  width: 100%;
+  padding: 20px 70px;
+  color: var(--white);
+}
+.auth-form-container .link {
+  padding-left: 2px;
+  font-weight: 600;
+}
+.auth-image-container {
+  height: 100%;
+  overflow: hidden;
+  margin: 20px;
+  border-radius: 15px;
+  width: 70%;
+}
+.auth-image-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.role-selector-container {
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  color: var(--white);
+}
+
+@media screen and (max-width: 600px) {
+  .auth-image-container {
+    display: none;
+  }
+  .login-wrapper {
+    grid-template-columns: 100%;
+  }
+}

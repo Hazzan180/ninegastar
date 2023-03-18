@@ -1,0 +1,40 @@
+.slider-carousel-item {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  height: 55vh;
+  background-color: green;
+  color: #fff;
+  width: 100%;
+  overflow: hidden;
+}
+.slider-carousel {
+  overflow: hidden;
+  position: relative;
+}
+.inner {
+  white-space: nowrap;
+  transition: transform 0.3s;
+}
+.slider-btn-wrapper {
+  position: absolute;
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  bottom: 0;
+  padding: 10px;
+}
+.slider-btn-container {
+  width: 20%;
+  display: flex;
+  justify-content: space-around;
+}
+.slider-btn-container > button {
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: none;
+  background-color: var(--tertiary-lime);
+  color: var(--primary);
+  font-size: medium;
+}

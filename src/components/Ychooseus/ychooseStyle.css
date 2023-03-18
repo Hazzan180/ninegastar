@@ -1,0 +1,51 @@
+
+.Ychooseus{
+  width: 100vw;
+  background-color: #280E23;
+  height: fit-content;
+  padding: 40px ;
+}
+
+.heading-text h1{
+  text-align: center;
+  color: #fff;
+  padding: 2rem;
+  text-transform: uppercase;
+}
+
+.Ychooseus-con{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 90px;
+}
+
+.con1{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 15px 15px 30px;
+  width: 250px;
+  height: 450px;
+}
+
+.img img{
+  width: 250px;
+}
+
+.con1 h5{
+  text-align: center;
+  margin-top: -40px;
+  color: #fff;
+  font-size: 20px;
+}
+
+.con1 p{
+  text-align: center;
+  margin-top: 3rem;
+  font-size: 16px;
+}
+
+@media (max-width: 600px) {
+  
+}

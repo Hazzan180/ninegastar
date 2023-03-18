@@ -1,0 +1,38 @@
+.carousel-wrapper {
+  height: fit-content;
+  overflow: hidden;
+  place-items: center;
+  color: var(--white);
+  margin-top: 20px;
+  padding: 0 30px;
+  margin-bottom: 4rem;
+}
+.carousel-wrapper h3 {
+  padding-left: 15px;
+}
+
+.carousel-item-container {
+  overflow: auto;
+  white-space: nowrap;
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+}
+
+.header{
+  color: #fff;
+  font-size: 30px;
+}
+
+::-webkit-scrollbar{
+  width: 15px;
+}
+
+::-webkit-scrollbar-track{
+  background-color:#280E23  ;
+}
+
+::-webkit-scrollbar-thumb{
+  background: #ffff;
+  border-radius: 10px;
+}
