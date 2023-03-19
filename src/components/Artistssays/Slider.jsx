@@ -29,7 +29,7 @@ const Slider = () => {
   return (
     <section className='section'>
         <div className='title'>
-        <h2>Our Artists Says</h2>
+        <h2>Our Artists Say</h2>
         </div>
         <div className='section-center'>
             {people.map((item, indexPeople) => {
@@ -45,7 +45,7 @@ const Slider = () => {
                 }
                 return (
                     <article className={position} key={id}>
-                        <h1>{quote}</h1>
+                        <h1 className='ww'>{quote}</h1>
                         <img src={image} className="person-img"></img>
                        <div className='textP'>
                        <p>{name}</p>

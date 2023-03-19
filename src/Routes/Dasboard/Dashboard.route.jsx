@@ -3,9 +3,13 @@ import { PlayIcon } from "../../svg/PlayIcon.svg";
 import { MusicIcon } from "../../svg/music.svg";
 import { Carousel } from "../../components/carousel/Carousel.component";
 import { useParams, Link } from "react-router-dom";
-import artists from "../../../src/artist.json";
+import {artists} from "../../artist.jsx";
 import { NavLink, Outlet } from "react-router-dom";
-
+import medaiMention from "../../Dassets/image/mediaMentions.png";
+import awards from "../../Dassets/image/awards.png";
+import about1 from "../../Dassets/image/about1.png";
+import about2 from "../../Dassets/image/about2.png";
+import about3 from "../../Dassets/image/about3.png";
 
 import {
   CardLg,
@@ -56,7 +60,7 @@ export const DashboardHeader = () => {
        <div className="about-imgs">
        <div className="aimg-container">
           <div className="aimage-container">
-            <img className="dashboard-image" src="https://rb.gy/ltgraq" alt={name}></img>
+            <img className="dashboard-image" src={about1} alt={about}></img>
           </div>
           <NavLink to="https://rb.gy/5k5kpc" className="alink x">
              <h3>Fan Request</h3>
@@ -65,7 +69,7 @@ export const DashboardHeader = () => {
 
         <div className="aimg-container">
           <div className="aimage-container center">
-            <img src="https://rb.gy/3ockjt" alt="artist" className="link"/>
+          <img className="dashboard-image" src={about2} alt={about}></img>
           </div>
           <NavLink to="" className="alink ">
              <h3>Support</h3>
@@ -74,7 +78,7 @@ export const DashboardHeader = () => {
 
         <div className="aimg-container">
           <div className="aimage-container">
-            <img src="https://rb.gy/mzincl" alt="artist" className="link"/>
+          <img className="dashboard-image" src={about3} alt={about}></img>
           </div>
           <NavLink to="https://rb.gy/bfioll" className="alink ">
              <h3>Partner</h3>
@@ -108,7 +112,7 @@ export const DashboardHeader = () => {
       <div className="mediaAwards">
         <div>
           <div className="mediaAward-img">
-            <img src="https://rb.gy/s9pzdv" alt="artist" className="link"/>
+            <img src={medaiMention} alt="artist" className="link"/>
             <div>
                <h3 className="green">Media Mentions</h3>
                <h3 className="white">Best Upcoming Airtist </h3>
@@ -118,7 +122,7 @@ export const DashboardHeader = () => {
 
         <div>
           <div className="mediaAward-img">
-            <img src="https://rb.gy/vbz2cl" alt="artist" className="link"/>
+            <img src={awards} alt="artist" className="link"/>
             <div>
               <h3 className="green2">Awards</h3>
               <h3 className="white2">Fast Growing Musician 2022</h3>

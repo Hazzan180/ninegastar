@@ -8,7 +8,7 @@ import {
 import SliderCarousel, {
   SliderCarouselItem,
 } from "../../components/slider/SliderCarousel.component";
-import artists from "../../../src/artist.json";
+import {artists} from "../../../src/artist.jsx";
 import albums from "../../../src/albums.json";
 import mood from "../../../src/mood.json";
 import library from "../../../src/library.json";

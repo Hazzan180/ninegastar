@@ -18,7 +18,7 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  gap: 90px;
+  gap: 30px;
 }
 
 .con1{
@@ -36,10 +36,13 @@
 .con1 h5{
   text-align: center;
   margin-top: -40px;
-  color: #fff;
-  font-size: 20px;
+  color: #000;
+  font-size: 18px;
 }
 
+.con1 .cb{
+  color: #fff;
+}
 .con1 p{
   text-align: center;
   margin-top: 3rem;

@@ -1,53 +1,69 @@
-[
+import asana from "../src/Dassets/image/asana.png";
+import lola from "../src/Dassets/image/lola.png";
+import janeme from "../src/Dassets/image/Janeme.png";
+import yvonne from "../src/Dassets/image/yvonne.png";
+import joy from "../src/Dassets/image/joy.png";
+import starr from "../src/Dassets/image/starr.png";
+import mls1 from "../src/Dassets/image/mls1.jpg";
+import mls2 from "../src/Dassets/image/mls2.jpg";
+import mls3 from "../src/Dassets/image/mls3.png";
+import mls4 from "../src/Dassets/image/mls4.png";
+import mls5 from "../src/Dassets/image/mls5.jpg";
+import fa1 from "../src/Dassets/image/fa1.jpg";
+import fa2 from "../src/Dassets/image/fa2.png";
+import fa3 from "../src/Dassets/image/fa3.png";
+import fa4 from "../src/Dassets/image/fa4.jpg";
+
+export const artists = [
   {
     "id": "Asana",
     "name": "Asana",
     "about": "Asana is a free spirit who is unapologetically herself. She is passionate about her art and sees the world in a different way than most people. She is curious and adventurous, always seeking out new experiences and inspiration for her work. At the same time, she can be fiercely independent and stubborn, refusing to compromise her vision for anyone.",
     "mostlistened": [
       {
-        "album-art": "https://rb.gy/2jmweq",
+        "album-art":mls1,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/4euwbz",
+        "album-art":mls2,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/gfuvcy",
+        "album-art":mls3,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/2faxoc",
+        "album-art":mls4,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/ltgraq",
+        "album-art":mls5,
         "title": "Good Dey",
         "artist-name": "2023"
       }
     ],
     "featured": [
       {
-        "album-art":"https://rb.gy/eu5ojv",
+        "album-art":fa1,
         "title":"Good Dey",
         "artist-name":"2023"
       },
       {
-        "album-art":"https://rb.gy/3qwb6y",
+        "album-art":fa2,
         "title":"Good Dey",
         "artist-name":"2023"
       },
       {
-        "album-art":"https://rb.gy/vpb77m",
+        "album-art":fa3,
         "title":"Good Dey",
         "artist-name":"2023"
       },
       {
-        "album-art":"https://rb.gy/axhnik",
+        "album-art":fa4,
         "title":"Good Dey",
         "artist-name":"2023"
       },
@@ -57,7 +73,7 @@
         "artist-name":"2023"
       }
     ],
-    "mainImage": "https://rb.gy/d09bc1",
+    "mainImage": asana,
     "featuredasana" : "Featured Asana"
   },
   {
@@ -66,49 +82,49 @@
     "about": "Lola is a free spirit who is unapologetically herself. She is passionate about her art and sees the world in a different way than most people. She is curious and adventurous, always seeking out new experiences and inspiration for her work. At the same time, she can be fiercely independent and stubborn, refusing to compromise her vision for anyone.",
     "mostlistened": [
       {
-        "album-art": "https://rb.gy/2jmweq",
+        "album-art":mls1,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/4euwbz",
+        "album-art":mls2,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/gfuvcy",
+        "album-art":mls3,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/2faxoc",
+        "album-art":mls4,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/ltgraq",
+        "album-art":mls5,
         "title": "Good Dey",
         "artist-name": "2023"
       }
     ],
     "featured": [
       {
-        "album-art":"https://rb.gy/eu5ojv",
+        "album-art":fa1,
         "title":"Good Dey",
         "artist-name":"2023"
       },
       {
-        "album-art":"https://rb.gy/3qwb6y",
+        "album-art":fa2,
         "title":"Good Dey",
         "artist-name":"2023"
       },
       {
-        "album-art":"https://rb.gy/vpb77m",
+        "album-art":fa3,
         "title":"Good Dey",
         "artist-name":"2023"
       },
       {
-        "album-art":"https://rb.gy/axhnik",
+        "album-art":fa4,
         "title":"Good Dey",
         "artist-name":"2023"
       },
@@ -118,7 +134,7 @@
         "artist-name":"2023"
       }
     ],
-    "mainImage": "https://rb.gy/v5fwic",
+    "mainImage":lola,
     "featuredasana" : "Featured Lola"
   },
   {
@@ -127,49 +143,49 @@
     "about": "Janeme is a free spirit who is unapologetically herself. She is passionate about her art and sees the world in a different way than most people. She is curious and adventurous, always seeking out new experiences and inspiration for her work. At the same time, she can be fiercely independent and stubborn, refusing to compromise her vision for anyone.",
     "mostlistened": [
       {
-        "album-art": "https://rb.gy/2jmweq",
+        "album-art":mls1,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/4euwbz",
+        "album-art":mls2,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/gfuvcy",
+        "album-art":mls3,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/2faxoc",
+        "album-art":mls4,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/ltgraq",
+        "album-art":mls5,
         "title": "Good Dey",
         "artist-name": "2023"
       }
     ],
     "featured": [
       {
-        "album-art":"https://rb.gy/eu5ojv",
+        "album-art":fa1,
         "title":"Good Dey",
         "artist-name":"2023"
       },
       {
-        "album-art":"https://rb.gy/3qwb6y",
+        "album-art":fa2,
         "title":"Good Dey",
         "artist-name":"2023"
       },
       {
-        "album-art":"https://rb.gy/vpb77m",
+        "album-art":fa3,
         "title":"Good Dey",
         "artist-name":"2023"
       },
       {
-        "album-art":"https://rb.gy/axhnik",
+        "album-art":fa4,
         "title":"Good Dey",
         "artist-name":"2023"
       },
@@ -179,7 +195,7 @@
         "artist-name":"2023"
       }
     ],
-    "mainImage": "https://rb.gy/kcvqmp",
+    "mainImage":janeme,
     "featuredasana" : "Janeme"
   },
   {
@@ -188,49 +204,49 @@
     "about": "Yvonne is a free spirit who is unapologetically herself. She is passionate about her art and sees the world in a different way than most people. She is curious and adventurous, always seeking out new experiences and inspiration for her work. At the same time, she can be fiercely independent and stubborn, refusing to compromise her vision for anyone.",
     "mostlistened": [
       {
-        "album-art": "https://rb.gy/2jmweq",
+        "album-art":mls1,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/4euwbz",
+        "album-art":mls2,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/gfuvcy",
+        "album-art":mls3,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/2faxoc",
+        "album-art":mls4,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/ltgraq",
+        "album-art":mls5,
         "title": "Good Dey",
         "artist-name": "2023"
       }
     ],
     "featured": [
       {
-        "album-art":"https://rb.gy/eu5ojv",
+        "album-art":fa1,
         "title":"Good Dey",
         "artist-name":"2023"
       },
       {
-        "album-art":"https://rb.gy/3qwb6y",
+        "album-art":fa2,
         "title":"Good Dey",
         "artist-name":"2023"
       },
       {
-        "album-art":"https://rb.gy/vpb77m",
+        "album-art":fa3,
         "title":"Good Dey",
         "artist-name":"2023"
       },
       {
-        "album-art":"https://rb.gy/axhnik",
+        "album-art":fa4,
         "title":"Good Dey",
         "artist-name":"2023"
       },
@@ -240,7 +256,7 @@
         "artist-name":"2023"
       }
     ],
-    "mainImage": "https://rb.gy/5orxws",
+    "mainImage":yvonne,
     "featuredasana" : "Yvonne"
   },
   {
@@ -249,49 +265,49 @@
     "about": "Joy is a free spirit who is unapologetically herself. She is passionate about her art and sees the world in a different way than most people. She is curious and adventurous, always seeking out new experiences and inspiration for her work. At the same time, she can be fiercely independent and stubborn, refusing to compromise her vision for anyone.",
     "mostlistened": [
       {
-        "album-art": "https://rb.gy/2jmweq",
+        "album-art":mls1,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/4euwbz",
+        "album-art":mls2,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/gfuvcy",
+        "album-art":mls3,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/2faxoc",
+        "album-art":mls4,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/ltgraq",
+        "album-art":mls5,
         "title": "Good Dey",
         "artist-name": "2023"
       }
     ],
     "featured": [
       {
-        "album-art":"https://rb.gy/eu5ojv",
+        "album-art":fa1,
         "title":"Good Dey",
         "artist-name":"2023"
       },
       {
-        "album-art":"https://rb.gy/3qwb6y",
+        "album-art":fa2,
         "title":"Good Dey",
         "artist-name":"2023"
       },
       {
-        "album-art":"https://rb.gy/vpb77m",
+        "album-art":fa3,
         "title":"Good Dey",
         "artist-name":"2023"
       },
       {
-        "album-art":"https://rb.gy/axhnik",
+        "album-art":fa4,
         "title":"Good Dey",
         "artist-name":"2023"
       },
@@ -301,7 +317,7 @@
         "artist-name":"2023"
       }
     ],
-    "mainImage": "https://rb.gy/mmd7lr",
+    "mainImage":joy,
     "featuredasana" : "Joy"
   },
   {
@@ -310,49 +326,49 @@
     "about": "Starr is a free spirit who is unapologetically herself. She is passionate about her art and sees the world in a different way than most people. She is curious and adventurous, always seeking out new experiences and inspiration for her work. At the same time, she can be fiercely independent and stubborn, refusing to compromise her vision for anyone.",
     "mostlistened": [
       {
-        "album-art": "https://rb.gy/2jmweq",
+        "album-art":mls1,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/4euwbz",
+        "album-art":mls2,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/gfuvcy",
+        "album-art":mls3,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/2faxoc",
+        "album-art":mls4,
         "title": "Good Dey",
         "artist-name": "2023"
       },
       {
-        "album-art": "https://rb.gy/ltgraq",
+        "album-art":mls5,
         "title": "Good Dey",
         "artist-name": "2023"
       }
     ],
     "featured": [
       {
-        "album-art":"https://rb.gy/eu5ojv",
+        "album-art":fa1,
         "title":"Good Dey",
         "artist-name":"2023"
       },
       {
-        "album-art":"https://rb.gy/3qwb6y",
+        "album-art":fa2,
         "title":"Good Dey",
         "artist-name":"2023"
       },
       {
-        "album-art":"https://rb.gy/vpb77m",
+        "album-art":fa3,
         "title":"Good Dey",
         "artist-name":"2023"
       },
       {
-        "album-art":"https://rb.gy/axhnik",
+        "album-art":fa4,
         "title":"Good Dey",
         "artist-name":"2023"
       },
@@ -362,7 +378,7 @@
         "artist-name":"2023"
       }
     ],
-    "mainImage": "https://rb.gy/4k8csk",
+    "mainImage":starr,
     "featuredasana" : "Starr"
   }
 ]

@@ -32,7 +32,7 @@ export const Hero = () => {
           spread the joy of music and connect fans with the artists they love.
         </p>
         <Link to={"/login"}>
-          <button className="btn bg-tertiary-purple btn-round text-col-white">
+          <button className='phone-btn'>
             Get started
           </button>
         </Link>

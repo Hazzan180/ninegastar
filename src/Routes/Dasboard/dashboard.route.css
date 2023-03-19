@@ -19,15 +19,15 @@
 
 .green{
     position: absolute;
-    top: 40px;
-    left: 25%;
+    top: 60px;
+    left: 30%;
     color: #BFFB6C;
     font-size: 30px;
 }
 
 .green2{
     position: absolute;
-    top: 40px;
+    top: 60px;
     right: 35%;
     color: #BFFB6C;
     font-size: 30px;
@@ -36,7 +36,7 @@
 .white{
     position: absolute;
     bottom:20%;
-    left: 10%;
+    left: 23%;
     color: #fff;
     font-size: 30px;
 }
@@ -44,7 +44,7 @@
 .white2{
     position: absolute;
     bottom:20%;
-    left: 10%;
+    left: 23%;
     color: #fff;
     font-size: 30px;
 }
@@ -99,6 +99,7 @@
     width: 682px;
     height: 481px;
     border-radius: 20px;
+    object-fit: cover;
 }
 
 .atext{
@@ -146,5 +147,7 @@
        top: 50%;
        left: 22%;
     }
-    
+    .green{
+        left: 20%;
+    }
 }

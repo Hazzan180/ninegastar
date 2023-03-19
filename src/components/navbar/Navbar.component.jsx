@@ -10,6 +10,7 @@ import { signOut } from "@firebase/auth";
 import { profile } from "../../context/UserProfile";
 import { CardProfile } from "../cards/Card.component";
 import {BsTwitter, BsFacebook, BsInstagram} from "react-icons/bs"
+import logo from "../../Dassets/image/logo.png";
 
 export const Navbar = () => {
   
@@ -27,7 +28,7 @@ export const Navbar = () => {
       <nav className="nav ">
       <div>
         <NavLink to="/" className="link ">
-        <img src="images/logo.png" alt="artist" className="link"/>
+        <img src={logo} alt="artist" className="link"/>
         </NavLink>
       </div>
       <div className="nav-item ">
@@ -212,7 +213,7 @@ export const Footer = () => {
 
      <div className="footer-logo">
      <NavLink to="/" className="link ">
-        <img src="images/logo.png" alt="artist" className="link"/>
+        <img src={logo} alt="artist" className="link"/>
       </NavLink>
      </div>
 
