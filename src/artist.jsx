@@ -1,9 +1,9 @@
 import asana from "../src/Dassets/image/asana.png";
-import lola from "../src/Dassets/image/lola.png";
-import janeme from "../src/Dassets/image/Janeme.png";
-import yvonne from "../src/Dassets/image/yvonne.png";
-import joy from "../src/Dassets/image/joy.png";
-import starr from "../src/Dassets/image/starr.png";
+import lola from "../src/Dassets/image/lola.jpeg";
+import janeme from "../src/Dassets/image/Janeme.jpeg";
+import yvonne from "../src/Dassets/image/yvonne.jpeg";
+import joy from "../src/Dassets/image/joy.jpeg";
+import starr from "../src/Dassets/image/starr.jpeg";
 import mls1 from "../src/Dassets/image/mls1.jpg";
 import mls2 from "../src/Dassets/image/mls2.jpg";
 import mls3 from "../src/Dassets/image/mls3.png";
@@ -196,7 +196,7 @@ export const artists = [
       }
     ],
     "mainImage":janeme,
-    "featuredasana" : "Janeme"
+    "featuredasana" : "Featured Janeme"
   },
   {
     "id": "Yvonne",
@@ -257,7 +257,7 @@ export const artists = [
       }
     ],
     "mainImage":yvonne,
-    "featuredasana" : "Yvonne"
+    "featuredasana" : "Featured Yvonne"
   },
   {
     "id": "Joy",
@@ -318,7 +318,7 @@ export const artists = [
       }
     ],
     "mainImage":joy,
-    "featuredasana" : "Joy"
+    "featuredasana" : "Featured Joy"
   },
   {
     "id": "Starr",
@@ -379,6 +379,6 @@ export const artists = [
       }
     ],
     "mainImage":starr,
-    "featuredasana" : "Starr"
+    "featuredasana" : "Featured sStarr"
   }
 ]
