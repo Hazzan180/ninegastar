@@ -64,7 +64,7 @@ export const Navbar = () => {
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
                   className="link"
                 >
-                  Fan request
+                  Fan Request
                 </NavLink>
               </li>
             ) }  
@@ -75,7 +75,7 @@ export const Navbar = () => {
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
                   className="link"
                 >
-                  Partner With us
+                  Partner With Us
                 </NavLink>
               </li>
             )}
