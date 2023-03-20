@@ -48,7 +48,7 @@ const Slider = () => {
                         <h1 className='ww'>{quote}</h1>
                         <img src={image} className="person-img"></img>
                        <div className='textP'>
-                       <p>{name}</p>
+                        <p>{name}</p>
                         <p>{title}</p>
                        </div>
                     </article>

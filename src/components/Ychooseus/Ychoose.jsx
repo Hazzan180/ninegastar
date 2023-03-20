@@ -5,7 +5,7 @@ const Ychooseus = () => {
   return (
     <div className='Ychooseus'>
       <div className='heading-text'>
-        <h1>WHY ARTISTS CHOOSE US</h1>
+        <h1>WHY ARTISTES CHOOSE US</h1>
       </div>
 
       <div className='Ychooseus-con'>
