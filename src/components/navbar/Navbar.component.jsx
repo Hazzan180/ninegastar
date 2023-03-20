@@ -13,6 +13,12 @@ import {BsTwitter, BsFacebook, BsInstagram} from "react-icons/bs"
 import logo from "../../Dassets/image/logo.png";
 
 export const Navbar = () => {
+
+  const [user] = useAuthState(auth)
+
+  const navToFanRequest = user ? "https://rb.gy/5k5kpc" : "/login";
+
+  const navToPartnerWithUs = user ? "https://rb.gy/bfioll" : "/login";
   
   const [showNav, setShowNav] = useState(false);
   const toggleNav = () => {
@@ -51,21 +57,21 @@ export const Navbar = () => {
                 Expolore Music
               </NavLink>
             </li>
-            { (
+            { ( 
               <li>
                 <NavLink
-                  to="https://rb.gy/5k5kpc"
+                  to={navToFanRequest}
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
                   className="link"
                 >
                   Fan request
                 </NavLink>
               </li>
-            )}
+            ) }  
             { (
               <li>
                 <NavLink
-                  to="https://rb.gy/bfioll"
+                  to={navToPartnerWithUs}
                   style={({ isActive }) => (isActive ? activeStyle : undefined)}
                   className="link"
                 >

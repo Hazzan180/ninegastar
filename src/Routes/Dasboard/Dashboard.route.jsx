@@ -2,7 +2,7 @@ import "./dashboard.route.css";
 import { PlayIcon } from "../../svg/PlayIcon.svg";
 import { MusicIcon } from "../../svg/music.svg";
 import { Carousel } from "../../components/carousel/Carousel.component";
-import { useParams, Link } from "react-router-dom";
+import { useParams, Link, useNavigate } from "react-router-dom";
 import {artists} from "../../artist.jsx";
 import { NavLink, Outlet } from "react-router-dom";
 import medaiMention from "../../Dassets/image/mediaMentions.png";
@@ -10,16 +10,29 @@ import awards from "../../Dassets/image/awards.png";
 import about1 from "../../Dassets/image/about1.png";
 import about2 from "../../Dassets/image/about2.png";
 import about3 from "../../Dassets/image/about3.png";
+import { useAuthState } from "react-firebase-hooks/auth";
+import { useEffect } from "react";
+
 
 import {
   CardLg,
   CardImage,
   CardRound,
 } from "../../components/cards/Card.component";
+import { auth } from "../../Utils/firebase/firebase.utils";
 
 
 
 export const Dashboard = () => {
+  const navigate = useNavigate();
+  const [user] = useAuthState(auth)
+  useEffect(() => {
+    if (!user) {
+      navigate("/login");
+    }
+  }, [user]);
+
+
   return (
     <div className="dashboard-container">
       <DashboardHeader />
@@ -27,6 +40,7 @@ export const Dashboard = () => {
   );
 };
 export const DashboardHeader = () => {
+
   const { artistId } = useParams();
 
   const { name, about, mostlistened, featuredasana, mainImage, featured} =
