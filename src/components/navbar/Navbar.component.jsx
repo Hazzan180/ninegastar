@@ -54,7 +54,7 @@ export const Navbar = () => {
                 style={({ isActive }) => (isActive ? activeStyle : undefined)}
                 className="link"
               >
-                Expolore Music
+                Explore Music
               </NavLink>
             </li>
             { ( 
