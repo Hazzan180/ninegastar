@@ -18,7 +18,7 @@ export const artists = [
   {
     "id": "Asana",
     "name": "Asana",
-    "about": "Asana is a free spirit who is unapologetically herself. She is passionate about her art and sees the world in a different way than most people. She is curious and adventurous, always seeking out new experiences and inspiration for her work. At the same time, she can be fiercely independent and stubborn, refusing to compromise her vision for anyone.",
+    "about": "Asana is a free spirit who is unapologetically herself. He is passionate about his art and sees the world in a different way than most people. He is curious and adventurous, always seeking out new experiences and inspiration for his work. At the same time, he can be fiercely independent and stubborn, refusing to compromise his vision for anyone.",
     "mostlistened": [
       {
         "album-art":mls1,
@@ -323,7 +323,7 @@ export const artists = [
   {
     "id": "Starr",
     "name": "Starr",
-    "about": "Experience the electrifying sounds of Starr, the Afrobeat queen who is redefining the genre with her powerful vocals and bold style. Starr is a Nigerian- born musician whose music is a fusion of afrobeat and alternative sounds. Her lyrics are honest and raw and with her unique sound and captivating stage presence, Starr is sure to leave a lasting impression.",
+    "about": "Experience the electrifying sounds of Starr, the Afrobeat king who is redefining the genre with his powerful vocals and bold style. Starr is a Nigerian- born musician whose music is a fusion of afrobeat and alternative sounds. His lyrics are honest and raw and with his unique sound and captivating stage presence, Starr is sure to leave a lasting impression.",
     "mostlistened": [
       {
         "album-art":mls1,
