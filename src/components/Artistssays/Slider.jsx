@@ -29,7 +29,7 @@ const Slider = () => {
   return (
     <section className='section'>
         <div className='title'>
-        <h2>Our Artists Say</h2>
+        <h2>Our Artistes Say</h2>
         </div>
         <div className='section-centerY'>
             {people.map((item, indexPeople) => {
