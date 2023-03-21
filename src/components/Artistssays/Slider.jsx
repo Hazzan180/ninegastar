@@ -31,7 +31,7 @@ const Slider = () => {
         <div className='title'>
         <h2>Our Artists Say</h2>
         </div>
-        <div className='section-center'>
+        <div className='section-centerY'>
             {people.map((item, indexPeople) => {
                 const {id,image, name,title,quote } = item;
                 let position = "nextSlide";
@@ -46,7 +46,9 @@ const Slider = () => {
                 return (
                     <article className={position} key={id}>
                         <h1 className='ww'>{quote}</h1>
+                        <div>
                         <img src={image} className="person-img"></img>
+                        </div>
                        <div className='textP'>
                         <p>{name}</p>
                         <p>{title}</p>

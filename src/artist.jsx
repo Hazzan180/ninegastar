@@ -79,7 +79,7 @@ export const artists = [
   {
     "id": "Lola",
     "name": "Lola",
-    "about": "Lola is a free spirit who is unapologetically herself. She is passionate about her art and sees the world in a different way than most people. She is curious and adventurous, always seeking out new experiences and inspiration for her work. At the same time, she can be fiercely independent and stubborn, refusing to compromise her vision for anyone.",
+    "about": "Lola is an Abuja-based singer-songwriter and a rising star of afro-soul music. With her soulful voice and heartfelt lyrics, Lola will take you on a journey through the ups and downs of life. Her music is a reflection of the world around her, and her unique sound is sure to capture your heart. ",
     "mostlistened": [
       {
         "album-art":mls1,
@@ -140,7 +140,7 @@ export const artists = [
   {
     "id": "Janeme",
     "name": "Janeme",
-    "about": "Janeme is a free spirit who is unapologetically herself. She is passionate about her art and sees the world in a different way than most people. She is curious and adventurous, always seeking out new experiences and inspiration for her work. At the same time, she can be fiercely independent and stubborn, refusing to compromise her vision for anyone.",
+    "about": "Janeme is a rising singer-songwriter hailing from Nenwe town in Enugu, Nigeria. With a soulful voice that's been compared to Tiwa Savage and a knack for writing relatable lyrics. Janeme is quickly making a name for herself in the music industry beyond doubt. A rising talent with bright prospects. Her style is a blend of pop and R&B. She's currently working on her debut album, which is set to drop later this year.",
     "mostlistened": [
       {
         "album-art":mls1,
@@ -201,7 +201,7 @@ export const artists = [
   {
     "id": "Yvonne",
     "name": "Yvonne",
-    "about": "Yvonne is a free spirit who is unapologetically herself. She is passionate about her art and sees the world in a different way than most people. She is curious and adventurous, always seeking out new experiences and inspiration for her work. At the same time, she can be fiercely independent and stubborn, refusing to compromise her vision for anyone.",
+    "about": "Yvonne is a talented afrobeat singer who is making a name for herself with her unique sound and captivating performances. She began writing songs at a young age and honed her skills by performing at local venues. She has since expanded her reach and has been gaining momentum with her online performances and releases.",
     "mostlistened": [
       {
         "album-art":mls1,
@@ -262,7 +262,7 @@ export const artists = [
   {
     "id": "Joy",
     "name": "Joy",
-    "about": "Joy is a free spirit who is unapologetically herself. She is passionate about her art and sees the world in a different way than most people. She is curious and adventurous, always seeking out new experiences and inspiration for her work. At the same time, she can be fiercely independent and stubborn, refusing to compromise her vision for anyone.",
+    "about": "Nigerian-born afrobeat singer. Joy's music is a reflection of his love for life and his passion for music. His upbeat melodies and catchy hooks will have you dancing all night long. With his infectious energy and positive attitude, Joy is sure to light up any room.",
     "mostlistened": [
       {
         "album-art":mls1,
@@ -323,7 +323,7 @@ export const artists = [
   {
     "id": "Starr",
     "name": "Starr",
-    "about": "Starr is a free spirit who is unapologetically herself. She is passionate about her art and sees the world in a different way than most people. She is curious and adventurous, always seeking out new experiences and inspiration for her work. At the same time, she can be fiercely independent and stubborn, refusing to compromise her vision for anyone.",
+    "about": "Experience the electrifying sounds of Starr, the Afrobeat queen who is redefining the genre with her powerful vocals and bold style. Starr is a Nigerian- born musician whose music is a fusion of afrobeat and alternative sounds. Her lyrics are honest and raw and with her unique sound and captivating stage presence, Starr is sure to leave a lasting impression.",
     "mostlistened": [
       {
         "album-art":mls1,
