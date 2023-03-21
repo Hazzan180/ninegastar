@@ -16,7 +16,7 @@ const Sponsor = () => {
           <img src="images/phone.png" ></img>
         </div>
         <div className='phone-text'>
-          <p>With 9jastar you get to know the artists who are changing the game and
+          <p  className="text-col-#391341">With 9jastar you get to know the artists who are changing the game and
           making waves with their incredible talent. They are the voices that
           inspire us, the sounds that move us, and the beats that make us dance.
           From rising stars to music legends, our website is dedicated to

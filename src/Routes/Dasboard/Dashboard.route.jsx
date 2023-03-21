@@ -85,7 +85,10 @@ export const DashboardHeader = () => {
           <div className="aimage-container center">
           <img className="dashboard-image" src={about2} alt={about}></img>
           </div>
-          <NavLink to="" className="alink ">
+          
+          <NavLink to="#" className="alink "
+            onClick={() => window.location = 'mailto:9jastar11@gmail.com'}
+          >
              <h3>Support</h3>
           </NavLink>
         </div>

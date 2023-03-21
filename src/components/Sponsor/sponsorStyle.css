@@ -20,7 +20,6 @@
     display: flex;
     justify-content: space-between;
     padding: 5rem;
-  
   }
   
   .phone-img {
@@ -34,12 +33,11 @@
   
   .phone-text{
     width: 50%;
+    margin-top: 10%;
+    line-height: 40px;
   }
   
-  .phone-text p{
-    font-size: 2rem;
-    color: #30143D;
-  }
+  
   
   .phone-btn{
     border: none;

@@ -239,7 +239,9 @@ export const Footer = () => {
         <h3>Community</h3>
       </NavLink>
 
-      <NavLink to="9jastar11@gmail.com" className="link ">
+      <NavLink to="#" className="link " 
+      onClick={() => window.location = 'mailto:9jastar11@gmail.com'}
+      >
         <h3>Get Support</h3>
       </NavLink>
      </div>

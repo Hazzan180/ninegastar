@@ -45,7 +45,7 @@ const Slider = () => {
                 }
                 return (
                     <article className={position} key={id}>
-                        <h1 className='ww'>{quote}</h1>
+                        <p className="text-col-#391341">{quote}</p>
                         <div>
                         <img src={image} className="person-img"></img>
                         </div>
