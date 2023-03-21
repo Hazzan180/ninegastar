@@ -18,7 +18,7 @@ export const artists = [
   {
     "id": "Asana",
     "name": "Asana",
-    "about": "Asana is a free spirit who is unapologetically hisself. He is passionate about his art and sees the world in a different way than most people. He is curious and adventurous, always seeking out new experiences and inspiration for his work. At the same time, he can be fiercely independent and stubborn, refusing to compromise his vision for anyone.",
+    "about": "Asana is a free spirit who is unapologetically himself. He is passionate about his art and sees the world in a different way than most people. He is curious and adventurous, always seeking out new experiences and inspiration for his work. At the same time, he can be fiercely independent and stubborn, refusing to compromise his vision for anyone.",
     "mostlistened": [
       {
         "album-art":mls1,
