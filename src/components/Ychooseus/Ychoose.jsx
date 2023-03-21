@@ -14,7 +14,7 @@ const Ychooseus = () => {
             <img src="images/ny1.png" className='sponsor-img'></img>
           </div>
           <h5>Free Uploads</h5>
-          <p>update up to 1000+ songs for free</p>
+          <p>update up to 1000+ songs for free. Get your release album uploaded for your music lovers</p>
         </div>
 
         <div className='con1'>
