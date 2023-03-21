@@ -240,7 +240,7 @@ export const Footer = () => {
       </NavLink>
 
       <NavLink to="#" className="link " 
-      onClick={() => window.location = 'mailto:9jastar11@gmail.com'}
+      onClick={() => window.location.href = 'mailto:9jastar11@gmail.com'}
       >
         <h3>Get Support</h3>
       </NavLink>
