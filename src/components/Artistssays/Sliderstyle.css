@@ -68,9 +68,9 @@ article.nextSlide {
 }
 
 .title {
-  text-transform: capitalize;
-  margin-bottom: 0.75rem;
-  font-size: 36px;
+  text-align: center;
+  padding: 2rem;
+  text-transform: uppercase;
   color:#391341;
 }
 

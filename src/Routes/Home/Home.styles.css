@@ -12,6 +12,12 @@ button {
 .text-container {
   width: 90%;
 }
+
+.wetext{
+  font-size: 2rem;
+  color: #fff;
+}
+
 .text-col-white {
   font-size: 38px;
 }

@@ -26,7 +26,7 @@ export const Hero = () => {
         <h1 className="text-col-white">
           GET THAT VISIBILITY NEEDED AS AN UPCOMING ARTIST WITH 9JASTAR
         </h1>
-        <p className="text-col-grey-light">
+        <p className="wetext">
           We believe that music has the power to bring people together and
           create positive change in the world. Through our website, we aim to
           spread the joy of music and connect fans with the artists they love.
