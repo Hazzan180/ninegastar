@@ -16,6 +16,7 @@ const Sponsor = () => {
           <img src="images/phone.png" ></img>
         </div>
         <div className='phone-text'>
+          <h1>DISCOVER RISING TALENTS</h1>
           <p  className="text-col-#391341">With 9jastar you get to know the artists who are changing the game and
           making waves with their incredible talent. They are the voices that
           inspire us, the sounds that move us, and the beats that make us dance.
