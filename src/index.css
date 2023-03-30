@@ -187,6 +187,9 @@ ul {
   .gd-col-2 {
     grid-template-columns: repeat(1, 1fr);
   }
+  .link{
+    color: var(--dark-primary);
+  }
 }
 .dbug {
   outline: 4px solid royalblue;
