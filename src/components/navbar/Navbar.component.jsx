@@ -111,7 +111,7 @@ export const Icon = () => {
   const [user] = useAuthState(auth);
 
   let activeStyle = {
-    color: "#5ebb3b",
+    color: "#5ebb3bs",
   };
   const view = !user ? (
     <>
@@ -122,9 +122,6 @@ export const Icon = () => {
       >
         <div className="logo">
           <p> Listen now</p>
-          <div className="svg-round">
-            <PlayIcon />
-          </div>
         </div>
       </NavLink>
     </>

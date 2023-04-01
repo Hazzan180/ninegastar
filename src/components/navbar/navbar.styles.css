@@ -7,7 +7,6 @@
 
 .nav-item ul{
   padding-top:25px ;
-  color: #000;
 }
 
 .logo , .logos{
@@ -104,7 +103,9 @@
   .logos{
     display: none;
   }
-  
+  .logo{
+    padding: 15px 0;
+  }
   .nav-item{
     display: none;
   }
@@ -117,6 +118,12 @@
   }
   .footer-logo{
     padding-bottom: 20px;
+  }
+  .footer-container h3{
+    color: #fff;
+  }
+  .footer-icon{
+    margin-top: 10px;
   }
 }
 
