@@ -58,8 +58,8 @@ export const SignUp = () => {
           </Link>
         </p>
         <Form
-          title={"Login"}
-          action={"Login"}
+          title={"Create Account"}
+          action={"Create Account"}
           onSubmit={handleSignUp}
           isLoading={loading}
         >

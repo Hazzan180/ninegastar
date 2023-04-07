@@ -69,3 +69,16 @@
 input:active {
   background-color: transparent;
 }
+
+@media screen and (max-width: 600px) {
+  .auth-image-container {
+    display: none;
+  }
+  .login-wrapper {
+    grid-template-columns: 1fr;
+  }
+  .auth-form-container {
+    width: 100%;
+    padding: 10px;
+  }
+}
