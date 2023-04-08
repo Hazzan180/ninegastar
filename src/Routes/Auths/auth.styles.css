@@ -44,6 +44,10 @@
   color: var(--white);
 }
 
+.link span{
+  color: #fff;
+}
+
 @media screen and (max-width: 600px) {
   .auth-image-container {
     display: none;
