@@ -43,7 +43,7 @@ export const CardRound = ({ artistId }) => {
           <img src={mainImage} alt={name} />
         </div>
         <div>
-          <h4>{name}</h4>
+          <h4 className="ha">{name}</h4>
         </div>
       </Link>
     </div>

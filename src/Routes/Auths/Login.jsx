@@ -53,7 +53,7 @@ export const Login = () => {
         <p>
           dont have an account ?
           <Link to={"/sign-up"} className="link">
-            <span style={{color:"#fff"}}>Sign up</span>
+            <span>Sign up</span>
           </Link>
         </p>
         <Form

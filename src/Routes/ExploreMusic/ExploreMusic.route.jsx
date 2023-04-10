@@ -38,7 +38,7 @@ export const ExploreMusic = () => {
           </Carousel>
           <Carousel title={"Trending Playlist"}>
             {albums.map((element, index) => (
-              <CardLg
+              <CardLg 
                 key={index}
                 image={element["album-art"]}
                 heading={element["artist-name"]}
